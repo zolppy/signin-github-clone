@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sign in to GitHub · GitHub</title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <!-- Reset de estilos -->
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <!-- Meus estilos -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
-  <main>
-    <div id="container">
-      <img src="assets/img/favicon-dark.svg" alt="Logo do GitHub" id="logo" />
-      <h1 id="title">Sign in to GitHub</h1>
-      <section id="signin-form">
-        <form>
-          <div id="username-input-container">
-            <label for="username-input">Username or email address</label>
-            <input type="text" id="username-input" />
-          </div>
-          <div id="password-input-container">
-            <div id="password-label-container">
-              <label for="password-input">Password</label>
-              <a href="#">Forgot password?</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in to GitHub - GitHub</title>
+    <link rel="shortcut icon" href="dist/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <img src="dist/img/favicon-dark.svg" alt="Logo do GitHub" id="logo" />
+        <h1 id="title">Sign in to GitHub</h1>
+        <section id="signin-form">
+          <form>
+            <div id="username-input-container">
+              <label for="username-input">Username or email address</label>
+              <input type="text" id="username-input" />
             </div>
-            <input type="password" id="password-input" />
-          </div>
-          <button type="submit" id="signin-button">Sign in</button>
-        </form>
-      </section>
-      <section id="create-an-account">
-        <a href="#">Sign in with a passkey</a>
-        <p>New to GitHub? <a href="#">Create an account</a></p>
-      </section>
-      <section id="footer">
-        <ul id="links-container">
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Docs</a></li>
-          <li><a href="#" id="contact-link">Contact GitHub Support</a></li>
-        </ul>
-      </section>
-    </div>
-  </main>
-</body>
+            <div id="password-input-container">
+              <div id="password-label-container">
+                <label for="password-input">Password</label>
+                <a href="#">Forgot password?</a>
+              </div>
+              <input type="password" id="password-input" />
+            </div>
+            <button type="submit" id="signin-button">Sign in</button>
+          </form>
+        </section>
+        <section id="create-an-account">
+          <a href="#">Sign in with a passkey</a>
+          <p>New to GitHub? <a href="#">Create an account</a></p>
+        </section>
+        <section id="footer">
+          <ul id="links-container">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#" id="contact-link">Contact GitHub Support</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
