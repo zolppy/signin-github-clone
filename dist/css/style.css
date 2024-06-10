@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+html body {
+  background-color: #0d1017;
+  color: #e6edf3;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  height: 100svh;
+}
+html body button {
+  border: none;
+  font-family: system-ui, sans-serif;
+}
+html body button:focus,
+html body a:focus {
+  outline: none;
+  border: 2px solid #2f81f7;
+}
+html body a {
+  text-decoration: none;
+  color: #2f81f7;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+html body input:focus {
+  outline: 1px solid #2f81f7;
+}
+html body ul > li {
+  list-style-type: none;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+#container #logo {
+  width: 48px;
+}
+#container #title {
+  margin-top: 31px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: -0.03rem;
+}
+#container form {
+  border: 1px solid rgba(50, 53, 60, 0.5);
+  margin-top: 1.5em;
+  height: 220px;
+  width: 307px;
+  border-radius: 7px;
+  background-color: #161b21;
+  padding: 20px 16px 10px 16px;
+  font-size: 14px;
+}
+#container form label {
+  margin-bottom: 11px;
+}
+#container form input {
+  height: 2rem;
+  text-indent: 0.6rem;
+  font-size: 1em;
+  color: #e6edf3;
+  font-family: system-ui, sans-serif;
+  background-color: inherit;
+  border: 1px solid #32353c;
+  border-radius: 6px;
+}
+#container form #username-input-container {
+  display: flex;
+  flex-direction: column;
+}
+#container form #password-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#container form #password-input-container #password-label-container {
+  display: flex;
+  justify-content: space-between;
+}
+#container form #password-input-container #password-label-container a {
+  font-size: 0.9em;
+  letter-spacing: -0.02rem;
+}
+#container form #signin-button {
+  margin-top: 1em;
+  height: 2rem;
+  border-radius: 6px;
+  background-color: #238636;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 100%;
+}
+#container form #signin-button:hover {
+  cursor: pointer;
+  background-color: #2e9f44;
+}
+#container #create-an-account {
+  border: 1px solid #32353c;
+  width: 307px;
+  border-radius: 7px;
+  padding: 15px;
+  margin-top: 15px;
+  line-height: 1.6rem;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#container #create-an-account p {
+  letter-spacing: -0.02em;
+}
+#container #links-container {
+  width: 307px;
+  margin-top: 80px;
+  font-size: 0.8em;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: -0.04em;
+}
+#container #links-container #contact-link {
+  color: #888;
+}
+#container #links-container #contact-link:hover {
+  color: #2f81f7;
+}
+
+/*# sourceMappingURL=style.css.map */
