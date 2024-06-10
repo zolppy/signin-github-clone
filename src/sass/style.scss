@@ -1,0 +1,120 @@
+@import "./base/base.scss";
+@import "./base/variables.scss";
+
+#container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+  #logo {
+    width: 48px;
+  }
+
+  #title {
+    margin-top: 31px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: -0.03rem;
+  }
+
+  form {
+    border: 1px solid rgba(50, 53, 60, 0.5);
+    margin-top: 1.5em;
+    height: 220px;
+    width: 307px;
+    border-radius: 7px;
+    background-color: #161b21;
+    padding: 20px 16px 10px 16px;
+    font-size: 14px;
+
+    label {
+      margin-bottom: 11px;
+    }
+
+    input {
+      height: 2rem;
+      text-indent: 0.6rem;
+      font-size: 1em;
+      color: $soft-white;
+      font-family: system-ui, sans-serif;
+      background-color: inherit;
+      border: 1px solid #32353c;
+      border-radius: 6px;
+    }
+
+    #username-input-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #password-input-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+
+      #password-label-container {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          font-size: 0.9em;
+          letter-spacing: -0.02rem;
+        }
+      }
+    }
+
+    #signin-button {
+      margin-top: 1em;
+      height: 2rem;
+      border-radius: 6px;
+      background-color: #238636;
+      color: #fff;
+      font-weight: 500;
+      font-size: 0.9rem;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #2e9f44;
+      }
+    }
+  }
+
+  #create-an-account {
+    border: 1px solid #32353c;
+    width: 307px;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 15px;
+    line-height: 1.6rem;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      letter-spacing: -0.02em;
+    }
+  }
+
+  #links-container {
+    width: 307px;
+    margin-top: 80px;
+    font-size: 0.8em;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: -0.04em;
+
+    #contact-link {
+      color: #888;
+
+      &:hover {
+        color: #2f81f7;
+      }
+    }
+  }
+}
