@@ -1,0 +1,27 @@
+{
+  "name": "signin-github-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r dist/css/*",
+    "w-sass": "sass -w src/sass/style.scss dist/css/style.css",
+    "t-sass": "sass src/sass/style.scss dist/css/style.css",
+    "m-css": "uglifycss dist/css/style.css > dist/css/style.min.css",
+    "tm-style": "npm run t-sass; npm run m-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zolppy/signin-github-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zolppy/signin-github-clone/issues"
+  },
+  "homepage": "https://github.com/zolppy/signin-github-clone#readme",
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}
